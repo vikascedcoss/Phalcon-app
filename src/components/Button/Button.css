@@ -1,0 +1,97 @@
+:root {
+	--action-color: #413BBC;
+	--badge-error: #f7977f;
+	--badge-success: #d9fadd;
+	--badge-partial-error: #fcd4c9;
+	--border-color: #d4d4d4;
+	--card-shadow-color: #cccccc;
+	--color-green: #54c062;
+	--dark-med-color: #3f3f3f;
+	--dark-color: #2A2A2A;
+	--form-element-color: #FAFAFA;
+	--grey-color: #cecece;
+	--greydark-color: #8F8F8F;
+	--link-color: #413BBC;
+	--link-color-light: #8C89D6;
+	--link-color-dark: #9a9a9a;
+	--secondary-linkr-light: #F0EFFB;
+	--main-bg-color: #ECEBFF;
+	--white-color: #ffffff;
+	--xtra-dark-color: #0A0A0A;
+}
+/*Actions*/
+.inte-btn {
+	border: 0;
+	padding: 18px 52px;
+	border-radius: 20px;
+	background-color: var(--white-color);
+	cursor: pointer;
+	transition: 300ms all linear;
+}
+.inte-btnExtraNarrow {
+	padding: 7px 16px;
+}
+.inte-btnNarrow {
+	padding: 20px 30px;
+}
+.inte-btn .inte__text{
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+.inte-btn--Primary {
+	background-color: var(--action-color);
+}
+.inte-btn--Primary:hover,
+.inte-btn--Outlined:hover,
+.inte-btn--Secondary:hover{
+	box-shadow: 0px 23px 18px -12px var(--card-shadow-color);
+}
+.inte-btn--Secondary{
+	background-color: var(--secondary-linkr-light);
+}
+.inte-btn--Secondary .inte__text {
+	font-size: 18px;
+	color: var(--dark-color);
+}
+.inte-btnExtraNarrow svg {
+	width: 15px;
+}
+.inte-btn--Secondary svg > *, .inte-btn--Secondary svg > * > * {
+	stroke: var(--dark-color);
+}
+.inte-btn--Outlined {
+	background-color: var(--white-color);
+	border: 1px solid var(--link-color);
+	color: var(--link-color);
+}
+.inte-btn--Outlined .inte__text{
+	font-size: 16px;
+	font-weight: 600;
+}
+.inte-btn--Primary .inte__text {
+	color: var(--white-color);
+}
+.inte__plain-btn {
+	color: var(--link-color);
+	font-size: 16px;
+	padding: 0;
+}
+.inte-plain-dark-btn {
+	color:var(--link-color-dark);
+}
+.inte-plain-dark-btn:hover{
+	color:var(--link-color);
+}
+.inte__plain-btn .inte__text {
+	font-size: 18px;
+}
+.inte-btn.inte-btn--hasIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inte-btn__icon {
+	padding-right: 10px;
+}
+/*Actions end*/

@@ -1,0 +1,47 @@
+/*LR layout*/
+.inte__lr-Layout {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 40px;
+	flex-wrap: wrap;
+}
+.inte__lr-Layout + .inte__lr-Layout {
+	/*border-top: 1px solid var(--card-shadow-color);*/
+	padding-top: 27px;
+	margin-top: 27px;
+}
+.inte__lr--align-center{
+	align-items: center;
+}
+.inte__l-Layout {
+	max-width: 45%;
+	flex-grow: 1;
+	padding: 0 50px 0 0;
+}
+.inte__lr-full {
+	flex-grow: 1;
+	min-width: 100%;
+	margin-bottom: 30px;
+}
+.inte__l-title {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--dark-color);
+}
+.inte__l-subtitle {
+	text-transform: uppercase;
+	color: var(--grey-color);
+	font-size: 18px;
+}
+.inte__l-titleHelp {
+	font-size: 16px;
+	color: var(--greydark-color);
+	font-weight: 500;
+	line-height: 155%;
+}
+.inte__r-Layout {
+	flex-grow: 1;
+	max-width: 55%;
+}
+/*LR layout End*/

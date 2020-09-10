@@ -1,0 +1,71 @@
+/*Inte Card*/
+.inte-card {
+	background-color: var(--white-color);
+	border-radius: 20px;
+	box-shadow: 0px 28px 18px -12px var(--card-shadow-color);
+	margin: 0 auto;
+	padding: 60px 80px;
+	width: 100%;
+}
+.inte-card + .inte-card {
+	margin-top: 50px;
+}
+.inte-card__Header {
+	border-bottom: 1px solid var(--border-color);
+	padding: 0 0 30px 0;
+}
+
+.inte-card__Body {
+	padding: 25px 0 0;
+}
+.inte-CardBody__headerWrap + .inte-CardBody__headerWrap {
+	margin-top: 80px;
+}
+.inte-CardBody__headerWrap--hasAction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.inte-CardBody__headerWrap--hasAction > .inte-CardBody__headerWrap-Heading {
+	flex-grow: 1;
+	padding-right: 22px;
+}
+.inte__seperator {
+	width: 100%;
+	display: block;
+	height: 1px;
+	background-color: var(--border-color);
+}
+.inte__Heading {
+	font-size: 32px;
+	margin-bottom: 15px;
+	font-weight: 800;
+	color: var(--dark-color);
+}
+.inte__Subheading {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--dark-color);
+}
+.inte__HeadingHelp-hasIcon {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.inte__HeadingHelp-hasIcon .inte__icon {
+	margin-right: 10px;
+}
+.inte__cardContent {
+	padding: 30px 0 0;
+}
+.inte__cardTitle h3 {
+	font-size: 32px;
+	font-weight: 700;
+}
+.inte-card__Footer {
+	padding: 20px 0 0 0;
+	border-top: 1px solid var(--border-color);
+	margin-top: 20px;
+}
+/*Inte Card End*/

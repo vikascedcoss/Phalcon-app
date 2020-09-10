@@ -1,0 +1,33 @@
+/*tables*/
+.inte__tableWrap {
+	overflow: auto;
+}
+.inte--layoutFixed{
+	table-layout: fixed;
+}
+.inte__table--alignLeft {
+	text-align: left;
+}
+.inte__table-cellCenter {
+	text-align: center;
+}
+.inte__table-cellRight {
+	text-align: right;
+}
+.inte__table-cellLeft {
+	text-align: left;
+}
+.inte__table th {
+	font-size: 18px;
+	color: var(--grey-color);
+	padding: 15px 0;
+}
+.inte__table td {
+	padding: 15px 0;
+}
+.inte__table-title {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--dark-color);
+}
+/*tables end*/
